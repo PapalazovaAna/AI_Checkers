@@ -11,7 +11,7 @@ BLACK = (0, 0, 0)
 RED = (255, 0, 0)
 
 player_1 = HumanPlayer(BLACK)
-player_2 = ExpectimaxPlayer(RED, depth=3)
+player_2 = MinimaxPlayer(RED, depth=6)
 game = Game(screen, player_1, player_2)
 game.update()
 
